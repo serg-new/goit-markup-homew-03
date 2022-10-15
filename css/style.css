@@ -40,13 +40,13 @@ ul {
 
 /* навигация*/
 .page-header{
-    border: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
 }
 .container {
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
-    padding: 0 15px;
+    padding: 0px 15px;
 }
 
 .logo{
@@ -115,6 +115,8 @@ display: flex;
     line-height: 1.15;
     letter-spacing: 0.02em;
     text-decoration: none;
+    padding-top: 32px;
+        padding-bottom: 32px;
 }
 
 
@@ -128,6 +130,8 @@ display: flex;
 .hero {
     background-color: var(--secondary-color);
     text-align: center;
+    padding-top: 200px;
+        padding-bottom: 200px;
 }
 .hero-titel{  
     margin-top: 0;
@@ -141,18 +145,24 @@ display: flex;
             text-align: center;
             letter-spacing: 0.06em;
             text-transform: uppercase;
+            
+            margin-left: 237px;
+            margin-right: 237px;
+
 }
  /* описание компании */
-.quality {
-    border: 2px solid var(--border);
-    
+.company{
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
+
+
 .qualiti-list{
     display: flex;
         gap: 30px;
 }
 .quality-title {
-    padding-top: 94px;
+    padding-top: 0px;
     margin-bottom: 0;
     color: var(--primary-text-color);
         font-size: 14px;
@@ -163,21 +173,21 @@ display: flex;
 }
 .quality-text{
    margin-top: 10px;
-   margin-bottom: 118px;
+   margin-bottom: 0px;
     color: var(--secondary-text-color);
     line-height: 1.7;
     letter-spacing: 0.03em;
 }
 /* які проекти*/
-
-
 .work{
-    
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
+
 .work-title{
     
-    
-    margin-bottom: 0;
+    padding-top: 0px;
+    margin-bottom: 50px;
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -191,8 +201,7 @@ display: flex;
         gap: 30px;
 }
 .work-img {
-    margin-top: 50px;
-    padding-bottom: 94px;
+    margin-top: 0px;
     
 }
 
@@ -200,12 +209,14 @@ display: flex;
 
 /* команда */
 .team {
-    
+    padding-top: 94px;
+    padding-bottom: 0px;
     background-color: var(--button);
-    padding-bottom: 96px;
+   
 }
 .team-title {
-    padding-top: 94px;
+    padding-top: 0px;
+    margin-bottom: 50px;
         color: var(--primary-text-color);
 
         
@@ -216,11 +227,12 @@ display: flex;
             letter-spacing: 0.03em;
 }
 .team-img  {
-    margin-top: 50px;
+    margin-top: 0px;
     margin-bottom: 0px;
     
-    display: inline-block;
-        max-width: 270px;
+    display: block;
+        max-width: 100%;
+        height: auto;
         object-fit: cover;
     }
 
@@ -244,25 +256,24 @@ display: flex;
         font-size: 16px;
         line-height: 1.2;
         letter-spacing: 0.03em;
-
-        min-width: 130px;
-        margin-top: 30px;
-        margin-bottom: 0;
+        text-align: center;
+        
 }
 .team-text {
         font-size: 16px;
         line-height: 1.2;
         color:var(--secondary-text-color);
         letter-spacing: 0.03em;
-
+        text-align: center;
         margin-top: 10px;
-        margin-bottom: 0;
+        margin-bottom: 0px;
 }
 
 /* підвал*/
 footer{
     background-color: var(--secondary-color);
- 
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .logo-white {
@@ -275,14 +286,14 @@ footer{
     text-decoration: none;
     letter-spacing: 0.03em;
 
-    padding-top: 60px;
+   padding-bottom: 20px;
 }
 .logo-accent {
     color: var(--accent-text-color);
 }
     
 .contacts {
-
+margin-bottom: 0px;
 }
 .link {
     display: block;
@@ -291,22 +302,30 @@ footer{
     color: var(--hero-text-color);
     text-decoration: none;
     letter-spacing: 0.03em;
-
-    margin-top: 20px;
 }
-.link-footer{
+
+.link-contacts {
+    margin-top: 9px;
     display: block;
-    font-style: normal;
-    color: rgba(255, 255, 255, 0.6);        
-        line-height: 1.7;    
+        font-style: normal;
+        color: rgba(255, 255, 255, 0.6);
+        line-height: 1.7;
         letter-spacing: 0.03em;
         text-decoration: none;
 
-        margin-top: 9px;
+}
+.link-contacts:first-child {
+    margin-top: 0px;
+    
+
 }
 
 /* порфоліо вітділи*/
-.department
+.department {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    }
+
 
 .department-title {
 
@@ -325,6 +344,7 @@ footer{
     display: flex;
     gap:8px;
     justify-content: center;
+    margin-bottom: 50px;
 }
 /* приклади робіт*/
 .progects-list{
@@ -333,11 +353,12 @@ footer{
     
     gap: 30px;
     justify-content: space-between;
-    padding-bottom: 96px;
+    
 }
 
 .progect-item {
     display: block;
+    padding: 24px 20px;
     margin: 0;
     
 
@@ -348,6 +369,9 @@ footer{
         font-size: 18px;
         line-height: 2;
         letter-spacing: 0.06em;
+        margin: 0px;
+        padding-bottom: 4px;
+
 }
 
 
@@ -357,6 +381,7 @@ footer{
         line-height: 1.87;
         letter-spacing: 0.03em;
         color: var(--secondary-text-color);
+        margin: 0px;
 }
 /* кнопка*/
 .button {
@@ -403,8 +428,7 @@ background-color: var(--button-focus);
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-        padding-bottom: 16px;
-        margin-bottom: 34px;
+        
         justify-content: center;
         padding: 6px 22px;
         border: none;
