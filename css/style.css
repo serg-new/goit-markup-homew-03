@@ -25,6 +25,7 @@ ul {
 --secondary-button: #EEEEEE;
 --border:#ECECEC;
 
+
 }
 body {
     background-color: var(--hero-text-color) ;
@@ -151,11 +152,12 @@ display: flex;
 
 }
  /* описание компании */
-.company{
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
 
+    
+
+.qualiti{
+    padding-top: 94px;
+}
 
 .qualiti-list{
     display: flex;
@@ -210,7 +212,7 @@ display: flex;
 /* команда */
 .team {
     padding-top: 94px;
-    padding-bottom: 0px;
+    padding-bottom: 94px;
     background-color: var(--button);
    
 }
@@ -306,14 +308,16 @@ margin-bottom: 0px;
 
 .link-contacts {
     margin-top: 9px;
+}
+.link-footer{
     display: block;
         font-style: normal;
         color: rgba(255, 255, 255, 0.6);
         line-height: 1.7;
         letter-spacing: 0.03em;
         text-decoration: none;
-
 }
+
 .link-contacts:first-child {
     margin-top: 0px;
     
@@ -350,7 +354,8 @@ margin-bottom: 0px;
 .progects-list{
     display: flex;
     flex-wrap: wrap;
-    
+    margin: 0px;
+    padding: 0px;
     gap: 30px;
     justify-content: space-between;
     
@@ -360,7 +365,12 @@ margin-bottom: 0px;
     display: block;
     padding: 24px 20px;
     margin: 0;
-    
+
+    box-sizing: border-box;
+        width: 370px;
+       
+        border: 1px solid var(--secondary-button);
+    }
 
 
 }
